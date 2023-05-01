@@ -4,10 +4,11 @@
     box-sizing:border-box;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+body{
+    font-family: sans-serif;
+    margin: 0;
 }
+
 header{
     display: flex;
     height: 80px;
@@ -15,11 +16,20 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin-bottom: 40px;
+}
+
+header a {
+    color:white;
+    text-decoration:none;
 }
 
 .logo{
     display: flex;
     align-items: center;
+    font-size: 30px;
+    text-shadow: 0 0 5px #000, 0 0 5px #000 ;
+    font-weight: bold;
 }
 
 .logo img{
@@ -28,6 +38,38 @@ header{
 }
 
 nav a{
-    font-weight: 600;
+    font-weight: 600px;
     padding-right: 10px;
+    font-size: 20px;
+    text-shadow: 0 0 5px #000, 0 0 5px #000 ;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #333;
+    text-shadow: 0 0 5px #000;
+}
+
+.carousel-item{
+    background-position:center;
+    background-size:cover;
+    height:700px;
+}
+
+.item1{
+    background-image: url(img/levizao.jpg)
+}
+
+.item2{
+    background-image: url(img/musumeci.jpg)
+}
+
+.item3{
+    background-image: url(img/mikey.jpg)
+}
+
+.parrafo{
+    font-size: 70px;
+    display:flex;
+    justify-content:center;
 }
