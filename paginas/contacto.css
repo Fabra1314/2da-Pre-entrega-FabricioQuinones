@@ -7,9 +7,6 @@
 body{
     font-family: sans-serif;
     margin: 0;
-    display:flex;
-    flex-direction:column;
-    min-height:100vh;
 }
 
 header{
@@ -50,8 +47,7 @@ nav a{
 
 nav a:hover{
     color: #333;
-    text-shadow: 0 0 5px #000;
-}
+    text-shadow: 0 0 5px #000;}
 
 .titulo-1{
     width: 100%;
@@ -61,46 +57,20 @@ nav a:hover{
     background-position:center;
     background-repeat:no-repeat;
     margin-bottom: 30px;
+    }
+
+    h1{ 
+        display: flex;
+        justify-content:center;
+
+    }
+
+.contacto{
+    background-color: gray;
+    height:500px;
+    width:50%;
+    border: 10px solid whitesmoke;
 }
-
-div h1{
-    display:flex;
-    justify-content:center;
+.map{
+    color:black;
 }
-
-.dia{
-    font-size: 20px;
-    border:3px solid #333;
-    margin-bottom: 50px;
-}
-
-.clase{
-    color: #000000;
-    background-color: #ededed;
-}
-
-.footer{
-    background-color:darkred;
-    color:#fff;
-    text-align:center;
-    width:100%;
-    padding: 20px;
-    margin-top:auto;
-}
-
-.footer p{
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-
-.footer a{
-    color: white;
-    font-size: 50px;
-    letter-spacing: 25px;
-}
-
-
-
-
-
-

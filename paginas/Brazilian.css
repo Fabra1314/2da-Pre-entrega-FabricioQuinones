@@ -7,9 +7,6 @@
 body{
     font-family: sans-serif;
     margin: 0;
-    display:flex;
-    flex-direction:column;
-    min-height:100vh;
 }
 
 header{
@@ -68,26 +65,55 @@ div h1{
     justify-content:center;
 }
 
-.dia{
-    font-size: 20px;
-    border:3px solid #333;
-    margin-bottom: 50px;
+.n-left{
+    background-image: url(../img/berimbolo.jpg);
+    height: 350;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    margin-bottom:40px;
 }
 
-.clase{
-    color: #000000;
+.n-right{
     background-color: #ededed;
+    margin-bottom: 40px;
+}
+
+.n-left_2{
+    background-image:url(../img/musumeci2.jpg);
+    height:350px;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    margin-bottom:40px;
+}
+
+.n-right_2{
+    background-color: #333;
+    color: #fff;
+    margin-bottom:40px;
+}
+
+.n-left_3{
+    background-image: url(../img/miyao1.jpg);
+    height: 350;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    margin-bottom:40px;
+}
+
+.n-right_3{
+    background-color: #ededed;
+    margin-bottom:40px;
 }
 
 .footer{
-    background-color:darkred;
-    color:#fff;
-    text-align:center;
-    width:100%;
+    background-color: darkred;
+    color: #fff;
+    text-align: center;
     padding: 20px;
-    margin-top:auto;
 }
-
 .footer p{
     margin-bottom: 20px;
     font-size: 25px;
@@ -98,9 +124,3 @@ div h1{
     font-size: 50px;
     letter-spacing: 25px;
 }
-
-
-
-
-
-
